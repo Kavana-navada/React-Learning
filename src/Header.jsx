@@ -14,5 +14,5 @@ function Header(){
         <hr/>
       </header>  
     );
-}
+} 
 export default Header
