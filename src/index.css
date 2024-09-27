@@ -23,3 +23,16 @@
     color: rgb(75, 75, 75);
     margin: 0;
 }
+
+
+.contactList{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.25em;
+    border: 2px solid gray;
+    max-width:fit-content;
+    margin: 10px;
+}
+.contactList p{
+    margin: 5px;
+    
+}
