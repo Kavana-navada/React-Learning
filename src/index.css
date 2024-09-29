@@ -34,5 +34,10 @@
 }
 .contactList p{
     margin: 5px;
-    
+}
+
+
+.welcome-msg{
+    background-color: rgb(250, 232, 209);
+    padding: 10px;
 }
