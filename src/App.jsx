@@ -5,7 +5,7 @@ import Button from "./Button/Button.jsx";
 import Contact from "./Contact.jsx";
 import UserGreeting from "./UserGreeting.jsx";
 import {LocationList, CostlyList} from "./LocationList.jsx";
-
+import PlayTime from "./PlayTime.jsx";
 function App() {
      const locationDetails=[{id:1,name:'Banglore', days:3},
           {id:2,name:'Lakshadweep',days:2},
@@ -24,7 +24,8 @@ function App() {
                <Button />
                <LocationList items={locationDetails} category="Available package"/>
                <CostlyList items={locationDetails} category="Costly package"/>
-
+               <hr />
+               <PlayTime />
                <Footer /> 
           </>
  );
