@@ -8,6 +8,7 @@ import {LocationList, CostlyList} from "./LocationList.jsx";
 import PlayTime from "./PlayTime.jsx";
 import Feedback from "./Feedback.jsx";
 import Payment from "./Payment.jsx";
+import Services from "./Services.jsx"
 function App() {
      const locationDetails=[{id:1,name:'Banglore', days:3},
           {id:2,name:'Lakshadweep',days:2},
@@ -26,6 +27,7 @@ function App() {
                <Button />
                <LocationList items={locationDetails} category="Available package"/>
                <CostlyList items={locationDetails} category="Costly package"/>
+               <Services />
                <hr />
                <Payment />
                <PlayTime />
