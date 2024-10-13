@@ -41,3 +41,71 @@
     background-color: rgb(250, 232, 209);
     padding: 10px;
 }
+
+.todolist{
+    text-align: center;
+    margin-top: 20px;
+}
+.todoheading{
+    font-size: 50px;
+}
+.taskInput{
+    font-size: 25px;
+    height:60px ;
+    text-align: center;
+}
+
+
+.add-btn ,.del-btn ,.up-btn ,.down-btn{
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    height: 60px;
+    width: 15%;
+    cursor: pointer;
+    transition: background-color 0.5 ease;
+    border-radius: 10px;
+    border: none;
+}
+
+.add-btn{
+    background-color: rgb(147, 255, 147);
+}
+.add-btn:hover{
+    background-color: rgb(88, 246, 88);
+}
+
+.del-btn{
+    background-color: rgb(245, 94, 94);
+}
+.del-btn:hover{
+    background-color: rgb(249, 58, 58);
+}
+
+.up-btn, .down-btn{
+    background-color: rgb(147, 212, 255);
+}
+
+.up-btn:hover, .down-btn:hover{
+    background-color: rgb(77, 178, 199);
+}
+
+ol{
+    padding: 0px;
+}
+
+li{
+    background-color: rgb(237, 234, 253);
+    padding-top: 20px;
+    border-left: 5px solid darkblue;
+    border-radius:10px ;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.text{
+    font-size: 30px;
+    flex: 1;
+}
