@@ -9,6 +9,8 @@
 // import Feedback from "./Feedback.jsx";
 // import Payment from "./Payment.jsx";
 // import Services from "./Services.jsx"
+import Count from "./Count";
+import HeightWidth from "./HeightWidth";
 
 import ToDoList from "./ToDoList";
 function App() {
@@ -18,7 +20,7 @@ function App() {
      //      {id:4,name:'Nepal',days:4},
      //      {id:5,name:'Malesiya',days:5}]; 
  return(
-          // <>
+          
           //      <UserGreeting isloggedin={true} name="Ramya" />
           //      <Header />
           //      <Card />
@@ -36,9 +38,17 @@ function App() {
           //      <hr />
           //      <Feedback />
           //      <Footer /> 
-          // </>
+          //      <ToDoList/>
+          <>
+          <Count/>
+          <hr />
+          <HeightWidth />
+
+          </>
+
           
-          <ToDoList/>
+          
+          
           
  );
 }
