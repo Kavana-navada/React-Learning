@@ -109,3 +109,23 @@ li{
     font-size: 30px;
     flex: 1;
 }
+
+.clockContainer{
+    background-image:url(assets/travel.jpg) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 600px;
+
+    backdrop-filter: blur(500px);
+}
+
+.clock{
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    
+}

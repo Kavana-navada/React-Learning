@@ -11,6 +11,7 @@
 // import Services from "./Services.jsx"
 import Count from "./Count";
 import HeightWidth from "./HeightWidth";
+import DigitalClock from "./DigitalClock";
 
 import ToDoList from "./ToDoList";
 function App() {
@@ -43,12 +44,10 @@ function App() {
           <Count/>
           <hr />
           <HeightWidth />
+          <hr />
+            <DigitalClock />
 
-          </>
-
-          
-          
-          
+          </>    
           
  );
 }
