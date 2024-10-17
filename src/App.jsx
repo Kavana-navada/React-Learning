@@ -12,6 +12,7 @@
 import Count from "./Count";
 import HeightWidth from "./HeightWidth";
 import DigitalClock from "./DigitalClock";
+import ComponentA from "./ComponentA";
 
 import ToDoList from "./ToDoList";
 function App() {
@@ -46,7 +47,8 @@ function App() {
           <HeightWidth />
           <hr />
             <DigitalClock />
-
+            <hr />
+          <ComponentA />
           </>    
           
  );
